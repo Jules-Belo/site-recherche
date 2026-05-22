@@ -1,22 +1,7 @@
 
 **Avancement recherche bibliographique :** 
 
-```dataview
-TABLE WITHOUT ID 
-file.link as "Fichier",
-  authors as "Auteurs",
-  year as "Année",
-  status as "Statut",
-  type_etude as "Type d'étude",
-  approche as "Approche",
-  discipline as "Discipline",
-  citation as "Citation",
-  choice(pdf, "📄 " + pdf, "—") as "PDF"
-FROM "RESSOURCES/Articles"
-WHERE file.name != "00 - Articles"
-	AND !contains(file.name, "extraction")
-SORT file.name ASC
-```
+*→ Contenu dynamique — voir Obsidian pour la vue complète.*
 
 
 

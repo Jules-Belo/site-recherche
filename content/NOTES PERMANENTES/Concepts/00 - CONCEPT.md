@@ -6,19 +6,13 @@ updated: 2025-01-04
 tags: [projet-master, hub-concept, escalade, créativité, fatigue]
 ---
 ## 📊 Architecture conceptuelle
----
 
-```dataview
-TABLE
-  type AS "Type",
-  tags AS "Tags",
-  created AS "Créée"
-FROM "NOTES PERMANENTES/Concepts"
-WHERE file.name != "00 - CONCEPT"
-SORT type DESC, file.name ASC
-```
-
----
+| Variable | Concepts clés |
+|---|---|
+| **VI1 — Fatigue** | [[fatigue musculaire]], [[État physiologique]], [[capacités d'action]], [[Affordances]] |
+| **VI2 — Psychologie** | [[orientation régulatrice]], [[Profil psychologique]], [[créativité générale]] |
+| **VD — Créativité** | [[créativité motrice]], [[variabilité fonctionnelle]], [[originalité]], [[Actions créatives]] |
+| **Outils** | [[SmartBoard]], [[Kinovea]], [[LED]], [[ECCI-i-FR]], [[Questionnaire d'Orientation Régulatrice en Sport (QORS)]] |
 
 ## 🔗 Cartographie des dimensions du projet
 
@@ -65,16 +59,11 @@ SORT type DESC, file.name ASC
 
 ## 📐 Modèles théoriques sous-jacents
 
-```dataview
-TABLE
-  file.name AS "Théorie/Modèle",
-  tags AS "Domaine"
-FROM "NOTES PERMANENTES/Concepts"
-WHERE contains(file.name, "Modèle") OR contains(file.name, "Approche") OR contains(file.name, "Dynamique") OR contains(file.name, "Couplage")
-SORT file.name ASC
-```
-
----
+- [[Approche écologique-dynamique]]
+- [[Dynamique écologique]]
+- [[Couplage perception-action]]
+- [[modèle dual de la créativité]]
+- [[modèle dual des processus]]
 
 ## 🔬 Méthodologie associée
 
@@ -90,13 +79,7 @@ SORT file.name ASC
 
 ### Tâches expérimentales
 
-```dataview
-TABLE
-  file.name AS "Concept-tâche",
-  tags AS "Type"
-FROM "NOTES PERMANENTES/Concepts"
-WHERE contains(file.name, "Tâche") OR contains(file.name, "Bloc") OR contains(file.name, "Exploration")
-```
+*→ Contenu dynamique — voir Obsidian pour la vue complète.*
 
 ---
 
@@ -118,19 +101,11 @@ WHERE contains(file.name, "Tâche") OR contains(file.name, "Bloc") OR contains(f
 
 ## 📚 Concepts pivots du projet
 
-Les concepts ci-dessous sont centraux pour comprendre les mécanismes en jeu :
+**Créativité motrice :** [[créativité motrice]] · [[variabilité fonctionnelle]] · [[Actions créatives]] · [[originalité]] · [[Fonctionnalité]]
 
-```dataview
-TABLE
-  type AS "Type",
-  file.name AS "Concept",
-  length(sources) AS "Nb sources"
-FROM "NOTES PERMANENTES/Concepts"
-WHERE contains(tags, "concept") AND (contains(tags, "créativité") OR contains(tags, "escalade") OR contains(tags, "dynamique") OR contains(tags, "affordances"))
-SORT type DESC, file.name ASC
-```
+**Escalade & Écologie :** [[Affordances]] · [[escalade de bloc olympique]] · [[capacités d'action]] · [[Contraintes]] · [[Couplage perception-action]]
 
----
+**Dynamique :** [[Approche écologique-dynamique]] · [[Émergence]] · [[Dynamique écologique]] · [[Répétition sans répétition]]
 
 ## 🔍 Pistes de liaison conceptuelle
 
@@ -180,16 +155,11 @@ SORT type DESC, file.name ASC
 
 ## 🌐 Intégrations disciplinaires
 
-```dataview
-TABLE
-  file.name AS "Concept",
-  tags AS "Domaine(s) pertinent(s)"
-FROM "NOTES PERMANENTES/Concepts"
-WHERE contains(tags, "dynamique") OR contains(tags, "biomécanique") OR contains(tags, "psychologie") OR contains(tags, "neurologie")
-SORT file.name ASC
-```
+**Biomécanique :** [[Force des doigts]] · [[fatigue musculaire]] · [[Vitesse de développement de la force]] · [[Physiologie de la fatigue]]
 
----
+**Psychologie :** [[orientation régulatrice]] · [[créativité générale]] · [[Psychologie de la créativité]] · [[Psychologie cognitive]] · [[largeur attentionnelle]]
+
+**Dynamique/Neuro :** [[Couplage perception-action]] · [[Émergence]] · [[Dynamique écologique]] · [[théorie de l'efficience neuronale]]
 
 ## 📎 Documents de référence
 
