@@ -10,9 +10,28 @@ title: Créativité & Escalade de Bloc
 
 ![[Audio_Poster_SFPS2026.mp3]]
 
+![[Poster_final_Belo_Jules.png|500]]
+
 ---
 
-## 📂 Explorer les notes de recherche
+## 📚 Articles scientifiques
 
-- [[RESSOURCES]]
-- [[NOTES PERMANENTES]]
+[[00 - Articles|→ Accéder à la bibliothèque d'articles]]
+
+---
+
+## 🗺️ Maps of Content
+
+- [[02 - MOC Créativité et Escalade|Créativité et Escalade]]
+- [[03 - MOC Fatigue et Performance|Fatigue et Performance]]
+- [[04 - MOC Psychologie du Sport|Psychologie du Sport]]
+
+---
+
+## 📊 Visualisations des résultats
+
+- [[Graphiques Blocs]]
+- [[Graphiques Physio]]
+- [[Graphiques Psycho]]
+- [[Graphiques Relations]]
+
