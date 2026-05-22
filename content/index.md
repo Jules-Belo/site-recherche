@@ -14,9 +14,7 @@ title: Créativité & Escalade de Bloc
 
 ---
 
-## 📚 Articles scientifiques
 
-[[00 - ARTICLES|→ Accéder à la bibliothèque d'articles]]
 
 ---
 
