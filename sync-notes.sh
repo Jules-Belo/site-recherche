@@ -4,6 +4,10 @@ cp -rL "/Users/julesbelo/Library/Mobile Documents/iCloud~md~obsidian/Documents/S
 cp -rL "/Users/julesbelo/Library/Mobile Documents/iCloud~md~obsidian/Documents/Stage M2/NOTES PERMANENTES" "content/NOTES PERMANENTES"
 cp "/Users/julesbelo/Library/Mobile Documents/iCloud~md~obsidian/Documents/Stage M2/RESSOURCES/Visualisation/Poster_final_Belo_Jules.png" content/
 
+# Suppression des fichiers exclus
+rm -f "content/RESSOURCES/Articles/00 - ARTICLES.md"
+rm -rf "content/NOTES PERMANENTES/Rédaction"
+
 python3 - << 'PYEOF'
 import os, re
 
