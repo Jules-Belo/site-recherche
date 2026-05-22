@@ -1,0 +1,12 @@
+views:
+  - type: cards
+    name: Table
+    filters:
+      and:
+        - file.inFolder("RESSOURCES/Pièces Jointes")
+        - file.name.endsWith(".png")
+    cardSize: 240
+    image: file.file
+    imageFit: contain
+    imageAspectRatio: 1
+    markers: none
