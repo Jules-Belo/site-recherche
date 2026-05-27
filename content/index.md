@@ -8,7 +8,6 @@ title: Créativité & Escalade de Bloc
 
 ## 🎧 Écouter la présentation du poster
 
-![[Audio_Poster_SFPS2026.mp3]]
 
 ![[Poster_final_Belo_Jules.png|500]]
 
