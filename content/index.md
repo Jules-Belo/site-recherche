@@ -6,10 +6,10 @@ title: Créativité & Escalade de Bloc
 
 **Jules Belo — Master 2 STAPS — Congrès SFPS 2026**
 
-## 🎧 Écouter la présentation du poster
+## 🖼️ Revoir la présentation du poster
 
 
-![[Poster_final_Belo_Jules.png|500]]
+[[Poster_final_Belo_Jules.png|🖼️ Voir le poster]]
 
 ---
 
