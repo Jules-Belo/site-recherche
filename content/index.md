@@ -6,6 +6,11 @@ title: Créativité & Escalade de Bloc
 
 **Jules Belo — Master 2 STAPS — Congrès SFPS 2026**
 
+*Vous trouverez ici les ressources complémentaires associées à cette présentation : les notes théoriques sont organisées en cartes conceptuelles interconnectées (à explorer comme Wikipedia), les graphiques de résultats, ainsi que la présentation visuelle du poster.*
+
+*Here you will find the supplementary materials for this presentation: theoretical notes organized as interconnected concept maps (browse them like Wikipedia), result graphs, and the poster itself.*
+
+
 ## 🖼️ Revoir la présentation du poster
 
 
